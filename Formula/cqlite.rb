@@ -8,27 +8,27 @@ class Cqlite < Formula
   desc "Local Apache Cassandra SSTable reader CLI"
   homepage "https://github.com/pmcfadin/cqlite"
   license "Apache-2.0"
-  # version is scanned from the release URL path (v0.14.0); see Homebrew audit.
+  # version is scanned from the release URL path (v0.14.1); see Homebrew audit.
 
   on_macos do
     on_arm do
-      url "https://github.com/pmcfadin/cqlite/releases/download/v0.14.0/cqlite-aarch64-apple-darwin.tar.gz"
-      sha256 "93585f71753120b7e6af6434e86d1d51b52f4cac75979485962a0038291fc7e2"
+      url "https://github.com/pmcfadin/cqlite/releases/download/v0.14.1/cqlite-aarch64-apple-darwin.tar.gz"
+      sha256 "884e1382a1aaa4b891b8fb73514b55897fae27f6517a00da0101f029bb0a43c3"
     end
     on_intel do
-      url "https://github.com/pmcfadin/cqlite/releases/download/v0.14.0/cqlite-x86_64-apple-darwin.tar.gz"
-      sha256 "d1fa12a5e902466bd4e319d9439b14ab1b541ef727fad1c6eea79a882e0ae9fe"
+      url "https://github.com/pmcfadin/cqlite/releases/download/v0.14.1/cqlite-x86_64-apple-darwin.tar.gz"
+      sha256 "37ba163d67cd707d0260827b3408d3bc639e911a696aca5b6e6203ecb7c8239b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/pmcfadin/cqlite/releases/download/v0.14.0/cqlite-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "92d08e4f261d83b85d53fcfe48583b93322e50866e571c3d7dd3be9e47c2c547"
+      url "https://github.com/pmcfadin/cqlite/releases/download/v0.14.1/cqlite-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d006e837022243cb081690a61387d8b0384a6c706e5d3eb30cabeb8719a37dd3"
     end
     on_intel do
-      url "https://github.com/pmcfadin/cqlite/releases/download/v0.14.0/cqlite-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fe232b5758a5818529ef4b7eebccbeb8ba13b9bdac20e6286b632750c3c3e1c0"
+      url "https://github.com/pmcfadin/cqlite/releases/download/v0.14.1/cqlite-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "38693729015bb8c6cd46f1843234932a5b5339bf712b14b2a812a99e878feaed"
     end
   end
 
